@@ -29,6 +29,7 @@ const userSchema = mongoose.Schema(
     account_balance: {
       type: Number,
       required: true,
+      default: 0,
     },
     account_number: {
       type: Number,
